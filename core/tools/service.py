@@ -1,6 +1,6 @@
 import uvicorn
 import os
-from physarum_agent_tools import starlette_app
+from core.tools.physarum_agent_tools import starlette_app
 
 # Environment variable configuration
 HOST = os.getenv("HOST", "0.0.0.0")
