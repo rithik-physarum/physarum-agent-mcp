@@ -141,6 +141,7 @@ async def proxy_ml_project_stream(user_prompt, target_variable, file_path, downl
                 
                 if download_url is None:
                     logger.info("No download URL received in SSE, checking if response is a zip file")
+                return f"Suceesfully created ml project with expected specifications inside Project_Directory folder at {download_location}"
     except Exception as e:
         error_message = f"Error during ML project generation: {str(e)}"
         logger.error(error_message)
