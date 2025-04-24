@@ -1,0 +1,10 @@
+setup.py
+agent_mcp.egg-info/PKG-INFO
+agent_mcp.egg-info/SOURCES.txt
+agent_mcp.egg-info/dependency_links.txt
+agent_mcp.egg-info/requires.txt
+agent_mcp.egg-info/top_level.txt
+core/__init__.py
+core/tools/__init__.py
+core/tools/physarum_agent_tools.py
+core/tools/service.py

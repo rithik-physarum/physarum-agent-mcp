@@ -7,7 +7,10 @@ setup(
     install_requires=[
         "httpx>=0.26.0",
         "python-dotenv>=1.1.0",
-        "mcp<1.5,>=1.4.1"
+        "mcp<1.5,>=1.4.1",
+        "fastapi",
+        "starlette",
+        "uvicorn"
     ],
     python_requires=">=3.10",
 ) 
